@@ -1,66 +1,54 @@
 ## 👋 Olá
 
-Sou **André Augusto Azarias De Souza**. Atuo na interseção entre **proteção de dados, compliance regulatório e tecnologia da informação** — com formação dupla (Direito + Análise e Desenvolvimento de Sistemas) e mais de 18 anos de experiência em gestão administrativa, governança e DPO.
+Sou **André Augusto Azarias de Souza**. Atuo na interseção entre **Compliance, GRC, privacidade e segurança da informação**, com formação em Direito e em Análise e Desenvolvimento de Sistemas.
 
-Em transição de carreira, busco posições que combinem **fundamentação jurídica** (LGPD, contratos, governança) com **fluência técnica** suficiente pra dialogar com times de segurança, engenharia e operações — o perfil que o mercado vem chamando de *Privacy Engineer* ou *DPO técnico*.
-
----
-
-### 🎯 Áreas de atuação
-
-- **DPO / Encarregado de Dados** (LGPD — Lei 13.709/2018)
-- **Compliance & Governança (GRC)** — políticas, controles, mapeamento de dados, auditoria
-- **Privacy Engineering** — papel emergente que une visão legal + técnica
-- **Security Analyst** com viés regulatório
+→ [LinkedIn](https://linkedin.com/in/andreaugusto-azariasdesouza) · contato@azariasdesouza.com
 
 ---
 
-### 🛠️ Como trabalho
+### Quem sou
 
-- **Aplicação de IA generativa** em análise documental, redação técnica e orquestração de projetos complexos — skill central no mercado pós-2024.
-- **Documentação como entrega**: política, procedimento, mapeamento de dados, ADRs, runbooks operacionais.
-- **Trabalho remoto**: autogestão, comunicação assíncrona, disciplina de execução, fuso flexível.
+Gestor com **18 anos de atuação como Gerente Administrativo e Encarregado de Dados (DPO)** em organização do setor de saúde suplementar, ambiente regulado pela ANS e pela LGPD. Participei de decisões de diretoria, conduzi a relação com hospitais e operadoras, liderei a modernização dos sistemas administrativos e de segurança da informação e coordenei o programa de adequação à LGPD da organização, com dados sensíveis de saúde sob o Art. 11.
 
----
+Formado em **Direito** e em **Análise e Desenvolvimento de Sistemas**, com pós-graduações em segurança digital, governança de dados, privacidade, direito digital e liderança ágil.
 
-### 📂 Projetos em destaque
+Trabalho com mapeamento de dados e ROPA (Art. 37), RIPD/DPIA (Art. 38), direitos do titular (Art. 18), gestão de operadores e terceiros (Art. 39), resposta a incidentes (Art. 48), interface com a ANPD, e com os frameworks NIST CSF, CIS Controls e ISO/IEC 27001/27701. Parto do princípio de que proteção de dados é também arquitetura: Security by Design, Zero Trust, defesa em camadas e menor privilégio.
 
-**[SentinelBR](https://github.com/andre28abr/SentinelBR-platform)** *— Plataforma open-source (público)*
-SIEM + LGPD pra servidores Linux SMB. Conduzido como product owner técnico com auxílio de IA generativa na etapa de codificação. Stack: **FastAPI · Go · React · PostgreSQL · gRPC mTLS · YARA · 12 técnicas MITRE PT-BR · multi-tenancy estrito**. ~19.500 linhas, 149 testes server, CI matriz Linux/macOS/Windows verde, 18 documentos técnicos publicados.
-
-**SC Platform** *— SaaS privado (sob NDA, disponível mediante apresentação)*
-Plataforma multi-tenant pra gestão de licitações públicas brasileiras: PNCP em tempo real, simulador FSM da Lei 14.133, robô de lances em 3 modos, extração de PDF com IA local (ChromaDB + Sentence-Transformers), gerador de propostas em PDF, CRM, Telegram em tempo real. **75k+ linhas, 420 testes, 30 modelos, 245 rotas, 29 migrations**. Stack: Python 3.14 + Flask 3 + SQLAlchemy 2 + Playwright + ReportLab + Docling + Manifest V3 Chrome Extension.
+Desde 2025 conduzo, como **product owner técnico**, projetos open-source de segurança e privacidade em Python, Go, Rust e Swift, com a codificação orquestrada por assistentes de IA generativa sob minha direção e revisão. Sou autor de cinco livros publicados, entre eles *Da Norma à Liderança*, sobre atualização profissional em GRC.
 
 ---
 
-### 🎓 Formação
+### Automação de processos com n8n
 
-**Graduações**
-- Bacharelado em Direito — *Anhanguera Educacional* (2006–2011)
-- Análise e Desenvolvimento de Sistemas — *Universidade Presbiteriana Mackenzie* (2020–2022)
-- Bacharelado em Administração de Empresas *(cursando)* — Anhanguera
+Projeto e opero **automações de processos de negócio e jurídicos em n8n**, self-hosted em Docker Compose, com foco em privacidade: processamento local, gravação em disco restrita a pastas definidas, sem envio de dados a serviços de terceiros. Entre o que já construí:
 
-**Pós-graduações & Especializações**
-- Direito, Inovação e Tecnologia — Faculdade CERS
-- Privacidade e Proteção de Dados Pessoais (LGPD) — Faculdade Focus
-- Direito Digital — Legale Educacional
-- Segurança Digital, Governança e Gestão de Dados — PUCRS
-- Liderança Ágil: Pessoas, Projetos e Inovação — PUCPR
-
-**Certificações em destaque**
-- DPO – Data Protection Officer (LGPD) — CERS
-- Cybersecurity Essentials — Cisco
-- Cibersegurança: Ameaças e Táticas de Prevenção — FGV
-- Crise Cibernética e Continuidade de Negócios — FGV
-- AI for Leaders — StartSe University
-- Fundamentos na Lei Geral de Proteção de Dados — Certiprof Summit
+- **Triagem automática de publicações judiciais**: busca de hora em hora no DJEN (Comunica CNJ) por OAB, classificação por urgência, cálculo de prazo provisório em dias úteis, contexto do processo via DataJud e painel web de tratamento por advogado.
+- **Onboarding de clientes**: formulário web que gera em segundos procuração, declaração de hipossuficiência e contrato de honorários em PDF (Gotenberg), com registro do cliente para os fluxos seguintes.
+- **Portal e páginas servidas pelo próprio n8n** via webhooks, instaladores para Mac e Windows, variante para servidor com HTTPS automático e autenticação (Caddy) e rotina de backup.
+- **Integrações com APIs públicas** (DJEN, DataJud, BrasilAPI) e desenho de fluxos com Code nodes, banco JSON local e controle de estado entre execuções.
 
 ---
 
-### 🟢 Disponibilidade imediata
+### 📂 Projetos
 
-Aberto a oportunidades **remotas, híbridas ou presenciais** (Brasil), com preferência por times distribuídos que valorizam autonomia e documentação.
+**[SentinelBR](https://github.com/andre28abr/SentinelBR-platform)**: plataforma open-source de **SIEM + LGPD** para PMEs brasileiras. Agente Go com gRPC e mTLS, detecção em tempo real, resposta automatizada e compliance LGPD nativa, multi-tenant. 225 testes entre servidor, agente e frontend; CI em 16 jobs.
+
+**[VigiaOS](https://github.com/andre28abr/VigiaOS)**: suíte de **segurança, privacidade e LGPD** para a estação de trabalho (Fedora Workstation, GTK4 + libadwaita), com 13 ferramentas defensivas, módulos de detecção e resposta e laboratório educacional com termo de uso. 1460 testes em Python e 28 em Rust.
+
+**[Plataforma LGPD](https://github.com/andre28abr/lgpd-platform)**: plataforma web multi-tenant que **treina, avalia e certifica** os setores de uma empresa em LGPD e dá ao DPO as ferramentas de operação: ROPA, RIPD, direitos do titular e incidentes. 121 testes, 95% de cobertura.
+
+**[Peapod](https://github.com/andre28abr/Peapod)**: sandboxes **isolados e descartáveis para agentes de IA**, dirigidos por MCP, CLI, dashboard web e app nativo de macOS: rede desligada por padrão, allowlist de domínios, trilha de auditoria. Go e Swift, distribuído por Homebrew.
+
+**[Uptend](https://github.com/andre28abr/Uptend)**: app nativo de macOS para **configurar e manter o Mac** e **auditar servidores Linux**: coletor portátil, relatórios, correlação com CVEs, MITRE ATT&CK, lente LGPD e playbook de hardening com rollback. Swift 6, 428 testes.
+
+**[banana](https://github.com/andre28abr/banana)**: editor **local-first** de notas Markdown, código e PDF, com vault cifrado (Argon2id + AES-256-GCM). Tauri 2, Rust e Svelte 5, 393 testes.
+
+**SC Platform** *(privado, disponível para apresentação mediante solicitação)*: SaaS multi-tenant para gestão de licitações públicas, com PNCP em tempo real, simulador da Lei 14.133/2021, robô de lances em três modos, extração de PDF com IA local, CRM e Telegram. Cerca de 75 mil linhas e 547 testes.
+
+Cada repositório tem um `AUTHOR.md` com o porquê do projeto e a minha atuação nele.
+
+---
 
 ### 📫 Contato
 
-→ [LinkedIn](https://linkedin.com/in/adreaugusto-azariasdesouza)
+→ [LinkedIn](https://linkedin.com/in/andreaugusto-azariasdesouza) · contato@azariasdesouza.com
