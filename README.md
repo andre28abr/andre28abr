@@ -69,6 +69,12 @@ Editor **local-first** de notas Markdown, código e PDF, com vault cifrado (Argo
 **SC Platform** *(privado, disponível para apresentação mediante solicitação)* ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white)<br>
 SaaS multi-tenant para gestão de licitações públicas: PNCP em tempo real, simulador da Lei 14.133/2021, robô de lances em três modos, extração de PDF com IA local, CRM e Telegram. Cerca de 75 mil linhas e 547 testes.
 
+**AUGRAZ** *(privado, produto da empresa do autor)* ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white)<br>
+Plataforma de compliance **LGPD + ISO 27001** para assessoria de proteção de dados: 11 módulos por empresa-cliente (ROPA, canal do titular, incidentes, ANPD, fornecedores, treinamentos), biblioteca dos 93 controles do Anexo A da ISO/IEC 27001:2022 com Gap Analysis, relatórios e geradores de política de privacidade, aviso de cookies e termos de uso. Testes em SQLite e PostgreSQL, CI com lint e auditoria de dependências.
+
+**Site AUGRAZ** *(privado, protótipo ainda não publicado)* ![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) ![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white)<br>
+Site institucional com formulário de contato em PDO e prepared statements, credenciais fora do repositório e `.htaccess` com HTTPS forçado, bloqueio de arquivos sensíveis e cabeçalhos de segurança (HSTS, nosniff, X-Frame-Options, Referrer-Policy, Permissions-Policy).
+
 Cada repositório tem um `AUTHOR.md` com o porquê do projeto e a minha atuação nele.
 
 ---
